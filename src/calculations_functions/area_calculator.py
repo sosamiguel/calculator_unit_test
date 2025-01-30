@@ -10,6 +10,7 @@ class AreaCalculator:
             return length * width
 
 
+
     def circle_calculations(self, r):
         if r <= 0:
             raise ValueError("The radius have to be greater than 0")
