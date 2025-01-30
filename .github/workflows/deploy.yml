@@ -1,10 +1,11 @@
-name: merging-test
+
 on:
   pull_request:
     branches:
       - main
 jobs:
     test:
+        name: merging-test
         runs-on: ubuntu-latest
 
         steps:
