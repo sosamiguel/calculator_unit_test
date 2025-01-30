@@ -13,6 +13,7 @@ class TestAreaCalculations:
 
     def test_rectangle_calculation_zero_values(self):
         with pytest.raises(ValueError):
+
             assert AreaCalculator().rectangle_calculations(0, 10)
 
 
